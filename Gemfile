@@ -49,3 +49,8 @@ group :development do
   gem 'guard-minitest', require: false
   gem 'rb-fsevent', require: false
 end
+
+group :test do
+	gem 'minitest-reporters'
+	gem 'shoulda'
+end
